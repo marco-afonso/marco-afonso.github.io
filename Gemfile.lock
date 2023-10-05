@@ -68,6 +68,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.9)
+  jekyll-sass-converter
   jekyll-sitemap (~> 1.4)
   jekyll-theme-architect (~> 0.1.1)
   kramdown-parser-gfm (~> 1.1)
