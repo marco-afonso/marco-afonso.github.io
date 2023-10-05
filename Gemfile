@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'jekyll-redirect-from'
 gem 'jekyll-sass-converter'
 gem "jekyll", "~> 3.9"
 gem "kramdown-parser-gfm", "~> 1.1"

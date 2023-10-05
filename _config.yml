@@ -29,7 +29,15 @@ url: "https://marco-afonso.github.io" # the base hostname & protocol for your si
 
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
+# default values
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
 
 #SASS COMFIG
 sass:
