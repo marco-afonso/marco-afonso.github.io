@@ -2,6 +2,8 @@
 title: Home
 ---
 
+{% include logo.svg %}
+
 # Hi Darlingggggggg
 
 This site is very stripped down to minimal content for GitHub Pages and is not suitable for local develpment - you'll typically add a `.gitignore` for example.

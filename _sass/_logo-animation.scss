@@ -1,0 +1,47 @@
+.svg-logo .right-arm-top, .svg-logo .right-arm-bottom, .svg-logo .right-cross, .svg-logo .left-arm, .svg-logo .left-cross, .svg-logo .letter-a-line {
+    animation-name: from-height-0;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+  }
+  .svg-logo .right-arm-top, .svg-logo .right-arm-bottom, .svg-logo .right-cross {
+    fill: #58b7b3;
+  }
+  .svg-logo .left-arm, .svg-logo .left-cross, .svg-logo .letter-a-line {
+    fill: #387877;
+  }
+  .svg-logo .right-arm-top {
+    animation-timing-function: linear;
+    animation-delay: 600ms;
+    animation-duration: 200ms;
+  }
+  .svg-logo .right-arm-bottom {
+    animation-timing-function: ease-out;
+    animation-delay: 840ms;
+    animation-duration: 80ms;
+  }
+  .svg-logo .right-cross {
+    animation-timing-function: ease-in;
+    animation-delay: 200ms;
+    animation-duration: 400ms;
+  }
+  .svg-logo .left-arm {
+    animation-timing-function: ease-in;
+    animation-delay: 200ms;
+    animation-duration: 200ms;
+  }
+  .svg-logo .left-cross {
+    animation-timing-function: linear;
+    animation-delay: 400ms;
+    animation-duration: 100ms;
+  }
+  .svg-logo .letter-a-line {
+    animation-timing-function: ease-out;
+    animation-delay: 560ms;
+    animation-duration: 200ms;
+  }
+  @keyframes from-height-0 {
+    from {
+      opacity: 0;
+      height: 0;
+    }
+  }
