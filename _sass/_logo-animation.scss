@@ -4,10 +4,10 @@
     animation-timing-function: ease-out;
   }
   .svg-logo .right-arm-top, .svg-logo .right-arm-bottom, .svg-logo .right-cross {
-    fill: #58b7b3;
+    fill: $color-aqua;
   }
   .svg-logo .left-arm, .svg-logo .left-cross, .svg-logo .letter-a-line {
-    fill: #387877;
+    fill: $color-ming;
   }
   .svg-logo .right-arm-top {
     animation-timing-function: linear;

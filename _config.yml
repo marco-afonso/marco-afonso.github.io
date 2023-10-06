@@ -41,7 +41,7 @@ defaults:
 
 #SASS COMFIG
 sass:
-    style: compressed
+    style: expanded
 
 #SOCIAL MEDIA
 facebook: https://www.facebook.com/marcoafonso.work/

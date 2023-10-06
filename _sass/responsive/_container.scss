@@ -1,0 +1,39 @@
+
+
+@mixin container-between($min-breakpoint:"",$max-breakpoint:"") {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  $above-min: false;
+  $below-max: true;
+  @each $name, $max-width in $container-max-widths {
+    @if($min-breakpoint == $name or $min-breakpoint == ""){
+      $above-min: true;
+    }
+    @if($above-min == true and $below-max == true){
+      @include media-breakpoint-up($name){
+        /*container for #{$name}*/
+        max-width: $max-width;
+      }
+    }
+    @if($max-breakpoint == $name){
+      $below-max: false;
+    }
+  }
+}  
+
+@mixin container{
+  @include container-between;
+}
+
+@mixin container-only-at($breakpoint){
+  @include container-between($breakpoint, $breakpoint);
+}
+
+@mixin container-from($breakpoint){
+  @include container-between($min-breakpoint: $breakpoint);
+}
+
+@mixin container-up-to($breakpoint){
+  @include container-between($max-breakpoint: $breakpoint);
+}

@@ -1,0 +1,15 @@
+@import "values";
+
+
+// SEMANTIC
+$color-background: $color-navy;
+$color-body-text: $color-white;
+$color-heading: $color-aqua;
+
+// PURPOSE
+$color-primary: $color-aqua;
+
+// GRADIENTS
+$gradient-primary-color-darker: adjust-color($color-primary, $lightness: -0.5 * $gradient-contrast, $hue: 0.5 * $gradient-delta-hue);
+$gradient-primary-color-lighter: adjust-color($color-primary, $lightness: 0.5 * $gradient-contrast, $hue: -0.5 * $gradient-delta-hue);
+$gradient-primary: linear-gradient($gradient-primary-color-darker, $gradient-primary-color-lighter);

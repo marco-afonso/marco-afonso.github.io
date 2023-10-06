@@ -1,41 +1,30 @@
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{{ page.title }} | {{ site.title }}</title>
 
-    <meta name="keywords" content="Marco, Afonso, Design, Portfolio, Graphic Design, Illustrator, Drawing, Programming" />
+    <!-- Meta -->
+    <meta name="keywords" content="Marco, Afonso, Design, Portfolio, UX/UI, User Experience, Illustrator, UI/UX, Figma" />
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico" />
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
-    <!--<link rel="manifest" href="/assets/manifest.json">-->
 
     <!-- Open Graph Metas-->
-    <meta property="og:title" content="Designs by Marco Afonso" />
+    <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://marcoafonso.pt/" />
-    <meta property="og:image" content="https://marcoafonso.pt/assets/img/marco-design-preview.png" />
-
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:image" content="{{ page.og-image }}" />
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
     <!-- Page CSS -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139263554-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-139263554-1', {'anonymize_ip' : true});
-    </script>
 </head>

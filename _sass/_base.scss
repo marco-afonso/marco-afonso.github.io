@@ -1,0 +1,11 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: $rem-unit;
+    color: $color-white;
+}
+
+body {
+    background: $color-background;
+    min-height: 100vh;
+    margin: 0;
+}
